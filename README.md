@@ -27,7 +27,7 @@ During the execution of this assignment, I encountered the following technical c
 1.  **Issue: `ORA-12541: TNS:no listener`**
     * **Description:** When trying to connect via SQL Developer, the connection failed because the listener was not responding.
     * **Solution:** I opened the Windows Services management console (`services.msc`) and manually started the `OracleOraDB21Home1TNSListener` service. I verified the status using `lsnrctl status` in the command prompt.
-
+https://docs.oracle.com/en/database/oracle/oracle-database/21/multi/introduction-to-the-multitenant-architecture.html
 2.  **Issue: `ORA-01031: insufficient privileges`**
     * **Description:** I attempted to run `ALTER PLUGGABLE DATABASE` commands while logged in as a standard `SYSTEM` user, which was denied.
     * **Solution:** I switched to the command line and logged in using `sqlplus / as sysdba`. This granted me the Super User privileges required to open, close, and drop pluggable databases.
@@ -44,9 +44,3 @@ Evidence of all tasks can be found in the `screenshots/` folder of this reposito
 
 
 ## Official Technical References
-Official Technical References
-Oracle Multitenant Architecture Overview: Oracle 21c Multitenant Administrator's Guide
-Managing Pluggable Databases (Create/Drop): Creating and Removing PDBs Official Docs
-Administering User Security: Oracle Database Security Guide
-Oracle Enterprise Manager Express (OEM): Introduction to Oracle EM Express
-```
