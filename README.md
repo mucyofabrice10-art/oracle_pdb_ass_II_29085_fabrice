@@ -1,5 +1,7 @@
+#  Oracle Pluggable Databases(PDB) Management Assignment
+Names:Mucyo Fabrice
 
-# oracle_pdb_ass_II_29085_fabrice
+ID:29085
 
 ##  Task Explanations
 
