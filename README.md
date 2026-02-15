@@ -1,3 +1,4 @@
+```sql
 # oracle_pdb_ass_II_29085_fabrice
 
 ##  Task Explanations
@@ -46,3 +47,4 @@ Evidence of all tasks can be found in the `screenshots/` folder of this reposito
 
 ##  Academic Integrity Statement
 I certify that this assignment is my own individual work. I have not used AI tools to generate the solution commands, nor have I copied from classmates. [cite_start]The screenshots and repository contents reflect my own execution of the required tasks[cite: 29, 102].
+```
