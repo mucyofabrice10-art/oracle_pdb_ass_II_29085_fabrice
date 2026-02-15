@@ -44,4 +44,7 @@ Evidence of all tasks can be found in the `screenshots/` folder of this reposito
 
 
 ## Official Technical References
-
+This is the primary technical documentation explaining how Container Databases (CDB) and Pluggable Databases (PDB) work together. It provides the theoretical background for why we use PDBs to isolate different lab environments.
+https://docs.oracle.com/en/database/oracle/oracle-database/21/multi/introduction-to-the-multitenant-architecture.html
+https://docs.oracle.com/en/database/oracle/oracle-database/21/multi/introduction-to-the-multitenant-architecture.html
+https://docs.oracle.com/en/database/oracle/oracle-database/21/dbseg/managing-security-for-oracle-database-users.html
