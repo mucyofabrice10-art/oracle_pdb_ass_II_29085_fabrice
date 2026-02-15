@@ -45,4 +45,3 @@ Evidence of all tasks can be found in the `screenshots/` folder of this reposito
 
 ## Official Technical References
 
-https://docs.oracle.com/en/database/oracle/oracle-database/21/multi/introduction-to-the-multitenant-architecture.html
