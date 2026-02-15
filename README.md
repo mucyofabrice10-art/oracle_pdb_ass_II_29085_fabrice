@@ -8,8 +8,7 @@ I successfully created a persistent Pluggable Database following the required na
 * **Command Used:** `CREATE PLUGGABLE DATABASE...`
 * **Action:** Created the PDB `fa_pdb_29085`, opened it using `ALTER PLUGGABLE DATABASE... OPEN`, and saved its state so it remains open after a restart.
 **User Creation:** I switched the session container to the new PDB and created the required user `Fabrice_plsqlauca_29085` with `CONNECT`, `RESOURCE`, and `DBA` privileges<img width="536" height="65" alt="image" src="https://github.com/user-attachments/assets/99a95623-5643-4067-90a9-6437461c0001" />
-
-
+https://localhost:5500/em/shell
 ### Task 2: Create and Delete a PDB (Lifecycle Management)
 To demonstrate lifecycle management, I created a temporary PDB and then removed it.
 * **Creation:** Created `fa_to_delete_pdb_29085`.
