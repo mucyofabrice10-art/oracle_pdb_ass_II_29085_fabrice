@@ -11,7 +11,7 @@ I successfully created a persistent Pluggable Database following the required na
 * **Action:** Created the PDB `fa_pdb_29085`, opened it using `ALTER PLUGGABLE DATABASE... OPEN`, and saved its state so it remains open after a restart.
 **User Creat  ion:** I switched the session container to the new PDB and created the required user `Fabrice_plsqlauca_29085` with `CONNECT`, `RESOURCE`, and `DBA` privileges
 
-### Task 2: Create and Delete a PDB (Lifecycle Management)
+### Task 2: Create and Delete a PDB
 To demonstrate lifecycle management, I created a temporary PDB and then removed it.
 * **Creation:** Created `fa_to_delete_pdb_29085`.
 * **Verification:** Opened the PDB to confirm it was active.
@@ -34,8 +34,13 @@ During the execution of this assignment, I encountered the following technical c
     * **Description:** I attempted to run `ALTER PLUGGABLE DATABASE` commands while logged in as a standard `SYSTEM` user, which was denied.
     * **Solution:** I switched to the command line and logged in using `sqlplus / as sysdba`. This granted me the Super User privileges required to open, close, and drop pluggable databases.
 
+## Challenges Faced & Solutions
+Issue: Encountered error ORA-65019 when attempting to open the PDB.
 
+Solution: Recognized that the PDB was already in READ WRITE mode. Verified the status using the show pdbs command rather than re-running the open command.
 
+## Integrity Statement
+I certify that this assignment is my own individual work. I have not copied commands, screenshots, or code from classmates or AI tools. All evidence provided reflects my own execution of the tasks.
 ## Screenshots
 Evidence of all tasks can be found in the `screenshots/` folder of this repository:
 * `task1_pdb_creation.png`: Shows the creation and open status of `fa_pdb_29085`.
@@ -43,10 +48,12 @@ Evidence of all tasks can be found in the `screenshots/` folder of this reposito
 * `task2_pdb_deletion.png`: Shows the creation and subsequent dropping of `fa_to_delete_pdb_29085`.
 * `task3_oem_dashboard.png`: Screenshot of the OEM dashboard.
 
+##  Final Checklist (Apply Before Submission)
 
-
-## Official Technical References
-This is the primary technical documentation explaining how Container Databases (CDB) and Pluggable Databases (PDB) work together. It provides the theoretical background for why we use PDBs to isolate different lab environments.
-https://docs.oracle.com/en/database/oracle/oracle-database/21/multi/introduction-to-the-multitenant-architecture.html
-https://docs.oracle.com/en/database/oracle/oracle-database/21/multi/introduction-to-the-multitenant-architecture.html
-https://docs.oracle.com/en/database/oracle/oracle-database/21/dbseg/managing-security-for-oracle-database-users.html
+- [ ] Correct PDB names used  
+- [ ] User created inside the PDB  
+- [ ] Temporary PDB created and deleted  
+- [ ] OEM dashboard screenshot included  
+- [ ] GitHub repository is PUBLIC  
+- [ ] README is clear and professional  
+- [ ] Deadline respected
