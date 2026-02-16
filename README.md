@@ -10,13 +10,13 @@ I successfully created a persistent Pluggable Database following the required na
 * **Command Used:** `CREATE PLUGGABLE DATABASE...`
 * **Action:** Created the PDB `fa_pdb_29085`, opened it using `ALTER PLUGGABLE DATABASE... OPEN`, and saved its state so it remains open after a restart.
 **User Creat  ion:** I switched the session container to the new PDB and created the required user `Fabrice_plsqlauca_29085` with `CONNECT`, `RESOURCE`, and `DBA` privileges
+<img width="644" height="371" alt="PDB creation" src="https://github.com/user-attachments/assets/959dc4f2-2cc2-452a-a1c8-495e873294b9" />
 
 ### Task 2: Create and Delete a PDB
 To demonstrate lifecycle management, I created a temporary PDB and then removed it.
 * **Creation:** Created `fa_to_delete_pdb_29085`.
 * **Verification:** Opened the PDB to confirm it was active.
 * **Deletion:** Closed the PDB using `CLOSE IMMEDIATE` and completely removed it using the `DROP PLUGGABLE DATABASE ... INCLUDING DATAFILES`.
-<img width="644" height="371" alt="PDB creation" src="https://github.com/user-attachments/assets/847b52db-5e2c-4590-8b2c-75a243514667" />
 
 ### Task 3: Oracle Enterprise Manager (OEM)
 I accessed the Oracle Enterprise Manager Database Express dashboard to visualize the database environment.
