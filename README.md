@@ -18,12 +18,14 @@ To demonstrate lifecycle management, I created a temporary PDB and then removed 
 * **Verification:** Opened the PDB to confirm it was active.
 * **Deletion:** Closed the PDB using `CLOSE IMMEDIATE` and completely removed it using the `DROP PLUGGABLE DATABASE ... INCLUDING DATAFILES`.
 <img width="564" height="125" alt="DELETE CODES " src="https://github.com/user-attachments/assets/14f822ef-d43a-489f-9756-27e41bee5ad2" />
-
+<img width="508" height="95" alt="TABLE IS DROPED" src="https://github.com/user-attachments/assets/9a7767b8-2721-4064-845d-c2b2d5e82c42" />
 
 ### Task 3: Oracle Enterprise Manager (OEM)
 I accessed the Oracle Enterprise Manager Database Express dashboard to visualize the database environment.
 * **Access:** Logged in via `https://localhost:5500/em`.
 **Verification:** Verified that `fa_pdb_29085` is listed as a mounted and open PDB in the container hierarchy[cite: 78, 82].
+<img width="934" height="374" alt="OEM SYSTEM" src="https://github.com/user-attachments/assets/c41091af-cc3a-41ad-ba9e-d878a11cb7d0" />
+<img width="905" height="380" alt="OEM ID" src="https://github.com/user-attachments/assets/43eb3dc2-d021-4268-8fbb-4ed1f5b37ae4" />
 
 
 ## Challenges Faced & Solutions
