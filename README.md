@@ -49,7 +49,7 @@ Evidence of all tasks can be found in the `screenshots/` folder of this reposito
 * `task2_pdb_deletion.png`: Shows the creation and subsequent dropping of `fa_to_delete_pdb_29085`.
 * `task3_oem_dashboard.png`: Screenshot of the OEM dashboard.
 
-##  Final Checklist (Apply Before Submission)
+## ✅ Final Checklist (Apply Before Submission)
 
 - [ ] Correct PDB names used  
 - [ ] User created inside the PDB  
