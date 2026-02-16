@@ -41,6 +41,7 @@ Solution: Recognized that the PDB was already in READ WRITE mode. Verified the s
 
 ## Integrity Statement
 I certify that this assignment is my own individual work. I have not copied commands, screenshots, or code from classmates or AI tools. All evidence provided reflects my own execution of the tasks.
+
 ## Screenshots
 Evidence of all tasks can be found in the `screenshots/` folder of this repository:
 * `task1_pdb_creation.png`: Shows the creation and open status of `fa_pdb_29085`.
