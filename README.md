@@ -17,6 +17,7 @@ To demonstrate lifecycle management, I created a temporary PDB and then removed 
 * **Creation:** Created `fa_to_delete_pdb_29085`.
 * **Verification:** Opened the PDB to confirm it was active.
 * **Deletion:** Closed the PDB using `CLOSE IMMEDIATE` and completely removed it using the `DROP PLUGGABLE DATABASE ... INCLUDING DATAFILES`.
+<img width="535" height="80" alt="CODES FOR_DROPED PDB" src="https://github.com/user-attachments/assets/1d3230d5-64f8-4525-8298-0dff3a831957" />
 
 ### Task 3: Oracle Enterprise Manager (OEM)
 I accessed the Oracle Enterprise Manager Database Express dashboard to visualize the database environment.
